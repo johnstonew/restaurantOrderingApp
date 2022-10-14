@@ -33,7 +33,7 @@ main {
 .menu-item {
     display: flex;
     justify-content: space-around;
-    padding: 52px 0;
+    padding: 10px 0;
 }
 
 .food-item {
@@ -71,10 +71,11 @@ main {
 hr {
     width: 400px;
     color: #D2D2D2;
+    margin: 0 auto;
 }
 
 .orders {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .your-order {
@@ -117,7 +118,7 @@ hr {
 }
 
 .message {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
     background: #ECFDF5;
     border-radius: 3px;
