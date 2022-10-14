@@ -1,0 +1,172 @@
+body {
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    font-family: 'Smythe', cursive;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+header {
+    background: url("./images/ferks-guare-KEZdWfYD-ow-unsplash1.png");
+    background-size: cover;
+    background-position: center right;
+    padding: 50px 0 50px 50px;
+    color: #FFFFFF; 
+    line-height: 12px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 39px;
+}
+
+header p {
+    font-size: 22.4216px;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+    border-radius: 4px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 52px 0;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-emoji {
+    font-size: 90px;
+}
+
+.food-details {
+    margin-left: 20px;
+}
+
+.food-name, .order-item-name, .total-price {
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.food-ingredients{
+    margin-top: -20px;
+    color: #8B8B8B;
+}
+
+.food-price {
+    font-size: 20px;
+}
+
+.food-btn:hover,
+.btn-complete-order:hover, .pay-btn:hover {
+    cursor: pointer;
+}
+
+hr {
+    width: 400px;
+    color: #D2D2D2;
+}
+
+.orders {
+    margin-top: 50px;
+}
+
+.your-order {
+    text-align: center;
+}
+
+.order-item, .total, .button, .alert {
+    display: flex;
+    justify-content: space-around;
+}
+
+.order-item-remove {
+    font-size: 14px;
+    color: #BBBBBB;
+    cursor: pointer;    
+}
+
+.order-item-price, total-digits {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.total-line {
+    border: 2px solid black;
+}
+
+.btn-complete-order {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Verdana';
+    color: #FFFFFF;
+    padding: 18px 140px;
+    background-color: #16DB99;
+    border: none;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.message {
+    margin-top: 50px;
+    text-align: center;
+    background: #ECFDF5;
+    border-radius: 3px;
+    color: #065F46;
+    width: 400px;
+    font-size: 28px;
+    padding: 35px 50px;
+}
+
+.modal {
+    box-sizing: border-box;
+    width: 500px;
+    height: 440px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Verdana';
+    padding: 0 30px;    
+}
+
+.card-details {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 20px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #757575;
+}
+
+.pay-btn {
+    width: 100%;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 16px 200px;
+    margin-top: 20px;
+    background: #16DB99;
+    border-radius: 4px; 
+    border: none;
+}

@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header-img">
+			<h1>Jimmy’s Diner</h1>
+			<p>The best burgers and pizzas in town.</p>
+        </header>
+        <main>
+			<!-- Menu -->
+			<div id="menu">
+				<!-- Menu rendered here -->
+			</div>
+			
+			<!-- Orders Bill -->
+			<div id="orders" class="orders hidden">
+				<h1 class="your-order">Your order</h1>
+				<!-- Bill rendered here -->
+				<div id="bill"></div>
+				<hr class="total-line">
+				<div id="total" class="total">
+					<!-- Total rendered here -->
+				</div>
+				<div class="button">
+					<button id="btn-complete" class="btn-complete-order">Complete order</button>				
+				</div>
+			</div>
+			
+			<!-- Modal -->
+			<div id="modal" class="modal hidden">
+				<p class="card-details">Enter card details</p>
+				<input type="text" class="name" placeholder="Enter your name"/>
+				<input type="text" class="card-number" placeholder="Enter card number"/>
+				<input type="text" class="CVV" placeholder="Enter CVV"/>
+				<button id="pay-btn" class="pay-btn" type="submit">Pay</button>		
+			</div>
+			
+			<!-- ALert Message -->
+			<div id="alert" class="alert hidden">
+				<p class="message">Thanks, James! Your order is on its way!</p>
+			</div>
+        </main>
+	<script type="module" src="index.js"></script>
+    </body>
+</html>
+
